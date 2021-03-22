@@ -1,6 +1,10 @@
 # Keep-alive-navigator-fragment
 Keep alive navigator fragment
 
+
+### The library Don't support databiding
+
+
 ```
 implementation 'com.vnapnic.keepalive:navigator:1.0.0'
 ```
