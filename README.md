@@ -37,7 +37,7 @@ nav_graph.xml
     <keep_alive_fragment
         android:id="@+id/navMyFragment"
         android:name="ui.MyFragment"
-        android:label="NewsFeed"
+        android:label="My Fragment"
         tools:layout="@layout/fragment_test" />
    ...
 
