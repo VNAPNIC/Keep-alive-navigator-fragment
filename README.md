@@ -24,3 +24,22 @@ activity_main.xml
             app:layout_constraintTop_toTopOf="parent"
             app:navGraph="@navigation/nav_graph" />
 ```
+
+nav_graph.xml
+
+```xml
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navMyFragment">
+
+    <keep_alive_fragment
+        android:id="@+id/navMyFragment"
+        android:name="ui.MyFragment"
+        android:label="NewsFeed"
+        tools:layout="@layout/fragment_test" />
+   ...
+
+</navigation>
+```
